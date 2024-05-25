@@ -1,0 +1,5 @@
+{ 
+   "version": 2, 
+   "build": [{ "source": "./server.js", "use":"@now/node"}] ,
+   "routes": [{ "source": "/(.*)","destination": "server.js" }] 
+}
